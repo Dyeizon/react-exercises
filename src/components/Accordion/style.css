@@ -1,0 +1,40 @@
+.accordion-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accordion {
+    border: 1px solid black;
+    width: 80%;
+    text-align: center;
+    
+}
+
+.accordion-header {
+    padding: 20px 0;
+    background-color: rgb(38, 57, 77);
+    color: white;
+}
+
+.accordion-header:hover {
+    cursor: pointer;
+}
+
+.accordion-content {
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.accordion-content-hide {
+    max-height: 0;
+}
+
+
+.accordion-content-show {
+    max-height: 160px;
+    padding: 20px;
+}
