@@ -5,6 +5,7 @@ import {DisplayList} from './components/DisplayList';
 import {Accordion} from './components/Accordion';
 import {Slider} from './components/Slider';
 import {Checklist} from './components/Checklist';
+import { Login } from './components/Login';
 
 function App() {
   return (
@@ -31,6 +32,10 @@ function App() {
 
       <Exercise title="Exercise 06" desc="checklist">
         <Checklist/>
+      </Exercise>
+
+      <Exercise title="Exercise 07" desc="login form">
+        <Login/>
       </Exercise>
     </div>
   );
