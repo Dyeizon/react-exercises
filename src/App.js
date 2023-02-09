@@ -45,6 +45,7 @@ function App() {
         <Rest/>
       </Exercise>
 
+      <a href="/" id='home'> </a>
       <Exercise title="Exercise 09" desc="multi-page navigation with react router">
         <Multipage/>
       </Exercise>
