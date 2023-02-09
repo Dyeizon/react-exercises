@@ -20,7 +20,7 @@ Status: Done
 Status: Done
 
 ## [07] Simple Login form
-Status: Working on
+Status: Done
 
 ## [08] Print data from REST API
 Status: Pending
