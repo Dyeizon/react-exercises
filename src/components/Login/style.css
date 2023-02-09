@@ -74,7 +74,7 @@
     color: #26394d;
 }
 
-.login-form button:focus, button:hover {
+.login-form button:focus, .login-form button:hover {
     background-color: #e67504;
     outline: none;
 }

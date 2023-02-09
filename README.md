@@ -23,7 +23,7 @@ Status: Done
 Status: Done
 
 ## [08] Print data from REST API
-Status: Pending
+Status: Done
 
 ## [09] Multi-Page navigation using React Router
 Status: Pending
