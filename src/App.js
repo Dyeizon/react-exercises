@@ -6,6 +6,9 @@ import {Accordion} from './components/Accordion';
 import {Slider} from './components/Slider';
 import {Checklist} from './components/Checklist';
 import { Login } from './components/Login';
+import { Rest } from './components/Rest';
+import { Multipage } from './components/Multipage';
+import { Context } from './components/Context';
 
 function App() {
   return (
@@ -36,6 +39,18 @@ function App() {
 
       <Exercise title="Exercise 07" desc="login form">
         <Login/>
+      </Exercise>
+
+      <Exercise title="Exercise 08" desc="print data from rest api">
+        <Rest/>
+      </Exercise>
+
+      <Exercise title="Exercise 09" desc="multi-page navigation with react router">
+        <Multipage/>
+      </Exercise>
+
+      <Exercise title="Exercise 10" desc="context api in react components">
+        <Context/>
       </Exercise>
     </div>
   );
