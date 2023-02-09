@@ -17,10 +17,10 @@ Status: Done
 Status: Done
 
 ## [06] Create a Checklist
-Status: Working on
+Status: Done
 
 ## [07] Simple Login form
-Status: Pending
+Status: Working on
 
 ## [08] Print data from REST API
 Status: Pending
