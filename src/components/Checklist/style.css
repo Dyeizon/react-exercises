@@ -1,0 +1,15 @@
+.checklist-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.checkbox-item {
+    margin-top: 20px;
+}
+
+fieldset:first-child .checkbox-item {
+    margin-top: 0;
+}

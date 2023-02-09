@@ -1,15 +1,16 @@
+import './style.css';
 import { useState } from 'react';
 import { fruits } from './data';
+import { CheckItem } from './CheckItem';
 
 export const Checklist = () => {
-    const [items, setItems] = useState(fruits);
+    const [items] = useState(fruits);
     
     return (
         <div className="checklist-container">
             {items.map((item, index) => (
                 <fieldset key={index}>
-                    <input type="checkbox" id={item} name={item}/>
-                    <label for={item}>{item}</label>
+                    <CheckItem item={item}/>
                 </fieldset>
             ))}
         </div>
