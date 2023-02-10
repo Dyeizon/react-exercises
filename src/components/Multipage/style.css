@@ -7,6 +7,18 @@
     align-items: center;
 }
 
-.page-container a {
-    margin: 10px 0;
+.page-container h1 {
+    font-size: 3em;
+}
+
+.home-page {
+    background-color: cyan;
+}
+
+.home-page a, .home-link {
+    background-color: rgb(38, 57, 77);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
 }

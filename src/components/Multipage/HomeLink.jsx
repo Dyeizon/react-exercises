@@ -1,3 +1,4 @@
+import './style.css';
 import { useNavigate } from "react-router-dom";
 
 export const HomeLink = () => {
@@ -14,6 +15,6 @@ export const HomeLink = () => {
     }
 
     return (
-        <a onClick={(e) => {scrollToHome(e)}} href="/">Go back to home</a>
+        <a className='home-link' onClick={(e) => {scrollToHome(e)}} href="/">Go back to home</a>
     );
 }

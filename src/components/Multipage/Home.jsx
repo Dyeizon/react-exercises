@@ -16,13 +16,12 @@ export const Home = () => {
     }
     return (
         <>
-            <div className="page-container" id="home">
+            <div className="page-container home-page" id="home">
                 <h1>This is the Home</h1>
                 <a href="/page01" onClick={(e) => handlePageNavigation(e)}>Go to page 01</a>
-                <a href="/page02">Go to page 02</a>
-                <a href="/page03">Go to page 03</a>
+                <a href="/page02" onClick={(e) => handlePageNavigation(e)}>Go to page 02</a>
+                <a href="/page03" onClick={(e) => handlePageNavigation(e)}>Go to page 03</a>
             </div>
-            
         </>
     );
 }
