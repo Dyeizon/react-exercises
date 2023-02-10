@@ -26,7 +26,7 @@ Status: Done
 Status: Done
 
 ## [09] Multi-Page navigation using React Router
-Status: Pending
+Status: Done
 
 ## [10] Context API in React Components
-Status: Pending
+Status: Done
